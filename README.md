@@ -1,1 +1,3 @@
 # blog-generation-using-aws
+
+This project involves building a blog generation tool using AWS Bedrock's foundational models, specifically leveraging the LLaMA3 model for generating AI-based content. The project is implemented in Python and includes a serverless architecture using AWS Lambda. The main function accepts a blog topic from the user, processes it with the Bedrock service to generate a blog post of approximately 200 words, and stores the generated blog in an S3 bucket. The script integrates error handling for robustness and employs the `boto3` library for interaction with AWS services. The project highlights efficient text generation, serverless deployment, and cloud storage integration.
